@@ -1,0 +1,44 @@
+{
+	"marker-association": { 
+		"x": 0, 
+		"y": 0, 
+		"width": 51, 
+		"height": 62, 
+		"pixelRatio": 2
+	},
+	"marker-factory": { 
+		"x": 51, 
+		"y": 0, 
+		"width": 51, 
+		"height": 62, 
+		"pixelRatio": 2
+	},
+	"marker-newspaper": { 
+		"x": 102, 
+		"y": 0, 
+		"width": 51, 
+		"height": 62, 
+		"pixelRatio": 2
+	},
+	"marker-stone": { 
+		"x": 0, 
+		"y": 62, 
+		"width": 51, 
+		"height": 62, 
+		"pixelRatio": 2
+	},
+	"marker-woman": { 
+		"x": 51, 
+		"y": 62, 
+		"width": 51, 
+		"height": 62, 
+		"pixelRatio": 2
+	},
+	"marker-partisan": { 
+		"x": 102, 
+		"y": 62, 
+		"width": 50, 
+		"height": 50, 
+		"pixelRatio": 2
+	}
+}

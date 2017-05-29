@@ -1,0 +1,54 @@
+.Menu {
+    padding: 20px;
+    width: 265px;
+    position: relative;
+    padding-top: 70px;
+    min-height: 100%;
+}
+
+.Menu .content {
+    padding-bottom: 85px;
+}
+
+.Menu .content p a {
+    padding-bottom: 85px;
+    text-decoration: underline;
+}
+
+.Menu a {
+    color: #2A3649;
+}
+
+.Menu .downloadSection {
+    padding: 0 5px;
+    text-align: center;
+}
+
+.Menu .footer {
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+    right: 20px;
+    text-align: center;
+}
+
+.Menu svg {
+    margin: 0 5px;
+}
+
+.Menu .button {
+    border: 1px solid #2A3649;
+    padding: 3px 15px;
+    border-radius: 15px;
+    display: inline-block;
+    margin: 5px;
+}
+
+.Menu .button:hover {
+    color: white;
+    background-color: #2A3649;
+}
+
+.Menu #source a {
+    text-decoration: underline;
+}

@@ -1,0 +1,67 @@
+.navbar-default{
+  z-index: 999;
+  background-color: #2A3649;
+  border-color: #2A3649;
+  font-size: 13px;
+}
+.navbar-default .navbar-nav>li>a {
+  color: white;
+}
+.navbar-brand img{
+  height: 38px;
+  margin-top:-9px;
+}
+
+.navbar-default .navbar-nav>li>a:focus {
+  color: white;
+  background-color: transparent;
+}
+.navbar-default .navbar-nav>li>a:hover {
+  color: #9CE5BA;
+  background-color: transparent;
+}
+
+.navbar-default .navbar-toggle {
+  border: none;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: white;
+}
+
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover {
+  background-color: transparent;
+}
+.navbar-default .navbar-toggle:hover .icon-bar {
+  background-color: #9CE5BA;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+  border-color: #e7e7e7;
+}
+
+.nav>li {
+  text-align: center;
+}
+
+.navbar-title {
+  color: white !important;
+  font-size: 15px;
+}
+
+.navbar-header {
+  float: left;
+}
+.navbar-title {
+  float: left;
+}
+.navbar-nav {
+  float: right;
+  margin: 6px -15px;
+}
+@media (min-width: 768px){
+  .navbar-nav {
+    margin: 0;
+  }
+}

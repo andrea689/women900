@@ -1,0 +1,60 @@
+.Women-details {
+    padding: 20px 40px;
+    width: 350px;
+    position: relative;
+    padding-top: 70px;
+    min-height: 100%;
+}
+
+.Women-details .content {
+    padding-bottom: 105px;
+}
+
+.Women-details .close-btn{
+    float: right;
+    font-size: 30px;
+    color: #2A3649;
+    margin-top: -15px;
+    margin-right: -22px;
+}
+
+.Women-details img {
+    clear: both;
+}
+
+.Women-details .woman-name {
+    font-size: 20px;
+}
+
+.Women-details .job-icon {
+    float: left;
+    padding: 5px 10px;
+    width: 45px;
+}
+
+.Women-details .job-container {
+    margin: 30px 0;
+    font-size: 12px;
+}
+
+.Women-details .description {
+    clear: both;
+}
+
+.Women-details .footer {
+    position: absolute;
+    bottom: 10px;
+    left: 40px;
+    right: 40px;
+}
+
+.Women-details .footer a {
+    color: #2A3649;
+    text-decoration: underline;
+}
+
+@media (max-width: 400px) {
+    .Women-details {
+        width: auto;
+    }
+}
