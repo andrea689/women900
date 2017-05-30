@@ -1,0 +1,22 @@
+.marker-association { background-image: url('img/sprite.png'); background-position: 0 0; background-size: 78px 62px; background-repeat: no-repeat;}
+.marker-factory { background-image: url('img/sprite.png'); background-position: -26px 0; background-size: 78px 62px; background-repeat: no-repeat;}
+.marker-newspaper { background-image: url('img/sprite.png'); background-position: -52px 0; background-size: 78px 62px; background-repeat: no-repeat;}
+.marker-stone { background-image: url('img/sprite.png'); background-position: 0 -31px;  background-size: 78px 62px; background-repeat: no-repeat;}
+.marker-woman { background-image: url('img/sprite.png'); background-position: -26px -31px;  background-size: 78px 62px; background-repeat: no-repeat;}
+.marker-partisan { background-image: url('img/sprite.png'); background-position: -52px -31px;  background-size: 78px 62px; background-repeat: no-repeat;}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+    .marker-association,
+    .marker-factory,
+    .marker-newspaper,
+    .marker-stone,
+    .marker-woman {
+        width: 26px; height: 31px;
+        background-image: url(img/sprite@2x.png);
+    }
+    .marker-partisan{
+        width: 25px; height: 25px;
+        background-image: url(img/sprite@2x.png);
+    }
+}

@@ -6,6 +6,10 @@
     min-height: 100%;
 }
 
+.Menu b {
+    font-family: Raleway-Bold;
+}
+
 .Menu .content {
     padding-bottom: 85px;
 }

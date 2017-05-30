@@ -4,11 +4,13 @@
   "private": true,
   "homepage": "http://freeda.it/women",
   "dependencies": {
+    "leaflet": "^1.0.3",
     "mapbox-gl": "^0.34.0",
     "react": "^15.5.4",
     "react-bootstrap": "^0.31.0",
     "react-dom": "^15.5.4",
     "react-icons": "^2.2.5",
+    "react-leaflet": "^1.2.0",
     "react-mapbox-gl": "^1.6.0",
     "react-sidebar": "^2.3.2"
   },

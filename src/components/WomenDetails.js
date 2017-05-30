@@ -42,23 +42,28 @@ class WomenDetails extends Component {
         </p>
       </div> : null;
 
+    const photo = woman.photo ? <Image src={woman.photo} responsive rounded /> : null;
+
+    const job = woman.job ?
+      <div className="job-container">
+        <img className="job-icon" src={iconJob} alt="icon job"/>
+        <span >{woman.job}</span>
+      </div> : null;
+
+    const description = woman.description ? <p className="description">{woman.description}</p> : null;
+
     return (
       <div className="Women-details">
         <div className="content">
           <a href="#details" className="close-btn" onClick={this.closeDetails}>x</a>
-          <Image src={woman.photo} responsive rounded />
+          {photo}
           <p >
             {woman.address}<br/>
             <span className="woman-name">{woman.name} {woman.surname}</span><br/>
             {woman.date}
           </p>
-          {woman.job ?
-            <div className="job-container">
-              <img className="job-icon" src={iconJob} alt="icon job"/>
-              <span >{woman.job}</span>
-            </div> : ''
-          }
-          <p className="description">{woman.description}</p>
+          {job}
+          {description}
         </div>
         {footer}
       </div>

@@ -11,6 +11,12 @@
     z-index: 1;
 }
 
+@media screen and (max-width: 480px) {
+    .control-btn-container {
+        display: none;
+    }
+}
+
 .control-btn {
     font-family: Arial, Helvetica, sans-serifsans-serif;
     display: block;

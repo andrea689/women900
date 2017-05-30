@@ -1,0 +1,6 @@
+.marker-association { background-image: url('./sprite.png'); background-position: 0 0; width: 26px; height: 31px; }
+.marker-factory { background-image: url('./sprite.png'); background-position: -26px 0; width: 26px; height: 31px; }
+.marker-newspaper { background-image: url('./sprite.png'); background-position: -52px 0; width: 26px; height: 31px; }
+.marker-stone { background-image: url('./sprite.png'); background-position: 0 -31px; width: 26px; height: 31px; }
+.marker-woman { background-image: url('./sprite.png'); background-position: -26px -31px; width: 26px; height: 31px; }
+.marker-partisan { background-image: url('./sprite.png'); background-position: -52px -31px; width: 25px; height: 25px; }
