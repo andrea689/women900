@@ -32,7 +32,6 @@ class Map extends Component {
     this.onMinusClick = this.onMinusClick.bind(this);
     this.onPitchClick = this.onPitchClick.bind(this);
     this.onStyleLoad = this.onStyleLoad.bind(this);
-
   }
 
   closePopup(){
@@ -108,7 +107,7 @@ class Map extends Component {
     );
 
     if(process.env.NODE_ENV==="production")
-      styleMap.sprite = `http://localhost${process.env.PUBLIC_URL}/mapbox/sprite`;
+      styleMap.sprite = `http://freeda.it${process.env.PUBLIC_URL}/mapbox/sprite`;
     else
       styleMap.sprite = `http://localhost:3000${process.env.PUBLIC_URL}/mapbox/sprite`;
 

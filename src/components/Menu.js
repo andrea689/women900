@@ -26,7 +26,15 @@ class Menu extends Component {
     return (
       <div className="Menu">
         <div className="content">
-          <p>La mappatura indica gli indirizzi dove hanno vissuto o lavorato alcune donne del '900, a Torino.</p><p>Vorremmo completare le storie mancanti, se hai informazioni scrivici a <a href="mailto:info@freeda.it">info@freeda.it</a>!</p>
+          <p>
+            Questa mappa raccoglie gli indirizzi in cui hanno vissuto e/o lavorato molte delle donne del ‘900 a Torino e nella sua provincia e che, attraverso la loro vita, hanno preso parte attivamente all’evoluzione del territorio, dell’economia e della storia di questi luoghi.
+          </p>
+          <p>
+            Abbiamo provato quindi a dare vita, virtualmente, ad una mappa capace di raccogliere le storie mancanti di tante donne con lo scopo di diffonderle: una grande banca dati open e di qualità, che stimolerà la trasparenza, il coinvolgimento della comunità e la divulgazione del sapere.
+          </p>
+          <p>
+            Vorremmo completare le storie mancanti, se hai informazioni scrivici a <a href="mailto:info@freeda.it">info@freeda.it</a>!
+          </p>
           <hr/>
           <h3><a href="#download" onClick={()=>{this.openSection(1)}}>Download Dati</a></h3>
           <Collapse in={this.state.open===1}>
