@@ -64,6 +64,9 @@ class App extends Component {
         },
         overlay: {
           zIndex: 3
+        },
+        content: {
+          overflowY: 'hidden'
         }
       },
       open: this.state.sidebarDetailsOpen,
@@ -80,6 +83,9 @@ class App extends Component {
         },
         overlay: {
           zIndex: 3
+        },
+        content: {
+          overflowY: 'hidden'
         }
       },
       open: this.state.sidebarMenuOpen,
